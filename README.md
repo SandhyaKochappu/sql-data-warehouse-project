@@ -85,7 +85,7 @@ These insights empower stakeholders to make **strategic, data-informed decisions
 
 #### 📊 Medallion Data Architecture Diagram
 
-![Medallion Data Architecture](images/medallion_architecture.png)
+![Medallion Data Architecture](images/Architecture.png)
 
 **Medallion Architecture Overview:**
 
