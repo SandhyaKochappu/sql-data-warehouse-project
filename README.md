@@ -33,6 +33,32 @@ To build a scalable and clean data warehouse that consolidates sales data from m
 
 ---
 
+## Project Overview
+
+This project involves the design and implementation of a scalable, modern data architecture using the Medallion architecture pattern. It encompasses the following key components:
+
+### 1. Data Architecture
+
+- **Medallion Architecture**: Implementation of Bronze, Silver, and Gold layers to structure raw, refined, and business-level data.
+  - **Bronze Layer**: Ingests raw data from various source systems.
+  - **Silver Layer**: Cleans and transforms data into standardized formats.
+  - **Gold Layer**: Contains curated data models optimized for reporting and analytics.
+
+### 2. ETL Pipelines
+
+- **Data Ingestion**: Automated extraction of data from multiple source systems.
+- **Transformation**: Data cleansing, normalization, and enrichment to ensure quality and usability.
+- **Loading**: Efficient and scalable loading into respective layers of the data warehouse.
+
+### 3. Data Modeling
+
+- **Star Schema Design**: Development of fact and dimension tables tailored for analytical performance.
+- **Optimization**: Ensures models are optimized for use in BI tools and analytical queries.
+
+---
+
+> This architecture enables a flexible and robust foundation for data analytics, ensuring clean lineage, high-quality data, and efficient data delivery to downstream consumers.
+
 ### 📊 Business Intelligence – Analytics & Reporting
 
 #### 🎯 Objective
