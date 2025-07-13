@@ -75,7 +75,26 @@ Develop SQL-based analytical queries to derive actionable insights in three key 
 
 These insights empower stakeholders to make **strategic, data-informed decisions**.
 
----
+## Tools Used
+
+- **SQL Server Express** – Local database engine for developing and testing the data warehouse.
+- **SQL Server Management Studio (SSMS)** – GUI for managing and querying SQL Server databases.
+- **Git Repository** – Version control and collaboration on SQL scripts and documentation.
+- **DrawIO** – Visual design of data architecture and data flow diagrams.
+- **Notion** – Project documentation, planning, and note-taking.
+
+#### 📊 Medallion Data Architecture Diagram
+
+![Medallion Data Architecture](images/medallion_architecture.png)
+
+**Medallion Architecture Overview:**
+
+1. **Bronze Layer**: Stores raw data as-is from the source systems. In this project, data is ingested from CSV files into the SQL Server database.
+
+2. **Silver Layer**: Performs data cleansing, standardization, and normalization. This layer prepares data for analytical use by refining the raw data into clean, queryable formats.
+
+3. **Gold Layer**: Contains business-ready data modeled into a star schema. This layer supports reporting and analytics by organizing data into fact and dimension tables optimized for performance.
+
 
 ## 📜 License
 
